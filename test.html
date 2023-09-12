@@ -8,22 +8,37 @@
     <h1>GitHub API Tester</h1>
     <form id="api-form">
         <h2>Repository Actions</h2>
+        
+        <!-- Get a Repository -->
         <div>
             <input type="checkbox" id="get-repo" name="repo-actions" value="GET /repos/:owner/:repo">
             <label for="get-repo">Get a repository</label>
+            <input type="text" id="owner" placeholder="owner">
+            <input type="text" id="repo" placeholder="repo">
         </div>
+        
+        <!-- List Repos -->
         <div>
             <input type="checkbox" id="list-repos" name="repo-actions" value="GET /user/repos">
             <label for="list-repos">List your repositories</label>
         </div>
+
+        <!-- List Branches -->
+        <div>
+            <input type="checkbox" id="list-branches" name="repo-actions" value="GET /repos/:owner/:repo/branches">
+            <label for="list-branches">List branches</label>
+            <input type="text" id="owner-branches" placeholder="owner">
+            <input type="text" id="repo-branches" placeholder="repo">
+        </div>
+
         <!-- More repo-specific actions -->
-        
+
         <button type="button" id="generate-curl">Generate cURL Command</button>
     </form>
-    
+
     <h2>Generated cURL Command:</h2>
     <textarea id="curl-command" readonly></textarea>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
