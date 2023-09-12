@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub API Tester</title>
+</head>
+<body>
+    <h1>GitHub API Tester</h1>
+    <form id="api-form">
+        <h2>Repository Actions</h2>
+        <div>
+            <input type="checkbox" id="get-repo" name="repo-actions" value="GET /repos/:owner/:repo">
+            <label for="get-repo">Get a repository</label>
+        </div>
+        <div>
+            <input type="checkbox" id="list-repos" name="repo-actions" value="GET /user/repos">
+            <label for="list-repos">List your repositories</label>
+        </div>
+        <!-- More repo-specific actions -->
+        
+        <button type="button" id="generate-curl">Generate cURL Command</button>
+    </form>
+    
+    <h2>Generated cURL Command:</h2>
+    <textarea id="curl-command" readonly></textarea>
+    
+    <script src="script.js"></script>
+</body>
+</html>
