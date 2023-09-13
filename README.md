@@ -1,3 +1,5 @@
+## About Me
+<a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
 ## Links to some fun stuff
 ### Shooting Games
 * [shmups.system11.org](https://shmups.system11.org/)
