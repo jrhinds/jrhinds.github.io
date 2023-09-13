@@ -1,8 +1,8 @@
-## ./ About
+## ./ About Me
 <a href="https://github.com/jrhinds" class="btn btn-github"><span class="icon"></span>GitHub</a>
 <a href="https://www.linkedin.com/in/jrhinds000" class="btn btn-linkedin"><span class="icon"></span>LinkedIn</a>
 
-## ./ Fun
+## ./ Fun Stuff
 
 ### 8-bit Computing/
 
