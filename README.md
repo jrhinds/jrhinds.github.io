@@ -1,5 +1,6 @@
 ## About Me
-<a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+<a href="https://github.com/jrhinds" class="btn btn-github"><span class="icon"></span>GitHub</a>
+<a href="https://www.linkedin.com/in/jrhinds000" class="btn"><span class="icon"></span>LinkedIn</a>
 ## Links to some fun stuff
 ### Shooting Games
 * [shmups.system11.org](https://shmups.system11.org/)
